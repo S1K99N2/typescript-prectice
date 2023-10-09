@@ -3,19 +3,14 @@
 // make programme with enum
 // use enum with variable
 // use enum with function
-var Days;
-(function (Days) {
-    Days[Days["mon"] = 0] = "mon";
-    Days[Days["tue"] = 1] = "tue";
-    Days[Days["wed"] = 2] = "wed";
-    Days[Days["thu"] = 3] = "thu";
-    Days[Days["fir"] = 4] = "fir";
-    Days[Days["sat"] = 5] = "sat";
-    Days[Days["sun"] = 6] = "sun";
-})(Days || (Days = {}));
-var whichDay;
-whichDay = Days.wed;
-console.log(whichDay);
+// (2)
+// enum Days{
+//     mon,tue,wed,thu,fir,sat,sun
+// }
+// let whichDay:Days;
+// whichDay=Days.wed
+// console.log(whichDay);
+// (1)
 // enum Days{
 //     // mon=10,tue,wed,thu,fir,set,sun
 //     mon="mon",tue="tue"
