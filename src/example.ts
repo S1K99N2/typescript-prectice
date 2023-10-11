@@ -150,3 +150,32 @@
 // }
 // console.log(user({name:"niraj",age:90}).age);
   
+// (17)
+// Symbol in typescript
+// what is symbol
+// make a programme with symbol
+// use symbol as key of object
+// use symbol as function of class
+
+// two symbol not equal to each other , this unique value or premative data type
+
+// let s1 = Symbol();
+// let s2 = Symbol();
+// console.log(s1=s2);
+// console.log(s1.toString);  this is provide answer in string
+
+// use as key 
+// let s1 = Symbol();
+
+// let data={
+//     [s1]:"some data"
+// }
+// console.log(data);
+// use as funtion 
+// class demo{
+//     [s1](){
+//         return "some data"
+//     }
+// }
+// let d1=new demo();
+// console.log(d1[s1]());
